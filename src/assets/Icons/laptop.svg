@@ -1,0 +1,13 @@
+<svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+  <!-- Screen -->
+  <rect x="20" y="10" width="140" height="90" rx="14" fill="#CBA8FF" stroke="#0C0F1D" stroke-width="4"></rect>
+
+  <!-- Screen content -->
+  <rect x="45" y="35" width="30" height="25" rx="6" fill="#EAFF7E"></rect>
+  <rect x="85" y="35" width="30" height="25" rx="6" fill="#7CE7F7"></rect>
+
+  <!-- Base -->
+  <rect x="10" y="100" width="160" height="18" rx="10" fill="#0C0F1D"></rect>
+
+  <rect x="60" y="104" width="60" height="6" rx="3" fill="#FFFFFF"></rect>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bottom coin (shadow layer) -->
+  <ellipse cx="100" cy="105" rx="70" ry="26" fill="#CFEF6B" stroke="#0C0F1D" stroke-width="5"></ellipse>
+
+  <!-- Top coin face -->
+  <ellipse cx="100" cy="80" rx="70" ry="32" fill="#EAFF7E" stroke="#0C0F1D" stroke-width="5"></ellipse>
+
+  <!-- Pixel W -->
+  <path d="
+      M60 60
+      L68 60
+      L74 84
+      L84 70
+      L94 84
+      L104 70
+      L114 84
+      L124 60
+      L132 60
+      L122 96
+      L104 82
+      L94 96
+      L84 82
+      L66 96
+      Z
+    " fill="#0C0F1D"></path>
+</svg>

@@ -5,8 +5,8 @@ import Navdrop from '../Navdrop/Navdrop'
 
 const Navbar = () => {
   return (
-    <div>
-        <div className='h-20 w-full  grid grid-cols-3'>
+    <div className='sticky top-0 z-50 bg-white'>
+        <div className='h-20 w-full  grid grid-cols-3  '>
            <div>
               <img src={logo} alt="logo" className='h-11 ml-10  mt-5'/>
            </div>
