@@ -12,7 +12,7 @@ const Hero = () => {
         <p className='hover:underline text-[0.9rem]'> walrus is the developer platform that enables you to monetize and verify your data</p> 
       </div>
        
-      <div className='bg-gradient-to-r from-[#160D38] to-[#354fe3] h- w-full'>
+      <div className='bg-gradient-to-r from-[#160D38] to-[#203088] h- w-full'>
           <div className=' flex flex-col  justify-center items-center  '>
                 <p className='text-white text-center  font-extralight text-[5rem] leading-tight tracking-wide '>Enabling Data Markets</p> 
                 <span className='text-teal-300  text-center  w-full  font-normal text-[6rem] leading-tight tracking-wide -mt-8 '>for the AI Era</span>
@@ -22,7 +22,7 @@ const Hero = () => {
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Use Wal </button>
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Read Docs</button>
           </div>
-          <div className='bg-gradient-to-r from-[#160D38] to-[#354fe3] h-98  w-full'> 
+          <div className='bg-gradient-to-r from-[#160D38] to-[#203088] h-98  w-full'> 
                  <div className="absolute inset-0 opacity-40">
                   <div className="absolute bottom-0 left-0 w-full h-40
                     bg-[linear-gradient(90deg,transparent_0%,transparent_10%,rgba(168,85,247,0.45)_10%,rgba(168,85,247,0.45)_20%,transparent_20%,transparent_30%,rgba(168,85,247,0.45)_30%,rgba(168,85,247,0.45)_75%,transparent_45%,transparent_100%)]
