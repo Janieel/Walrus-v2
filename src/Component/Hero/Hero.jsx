@@ -12,7 +12,7 @@ const Hero = () => {
         <p className='hover:underline text-[0.9rem] text-center'> walrus is the developer platform that enables you to monetize and verify your data</p> 
       </div>
        
-      <div className='bg-gradient-to-r from-[#160D38] to-[#203088]  w-full sm:px-10 lg:px-0'>
+      <div className='bg-gradient-to-r from-[#160D38] to-[#203088]  w-full sm:px-10 lg:px-1'>
           <div className=' flex flex-col  justify-center items-center  '>
                 <p className='text-white text-center font-extralight  sm:font-light text-[2.5rem] sm:text-[3rem] md:text-[5rem] leading-tight tracking-wide mt-5 '>Enabling Data Markets</p> 
                 <span className='text-teal-300  text-center  w-full  font-normal text-[3rem]  sm:text-[4rem] md:text-[6rem] leading-tight tracking-wide md:-mt-8 sm:-mt-6 -mt-3 '>for the AI Era</span>
