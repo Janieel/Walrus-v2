@@ -45,7 +45,7 @@ const Info = () => {
             <div style={{ 
               overflow: "hidden", 
               width: "100%", 
-              height: "120px", 
+              height: "100px", 
               display: "flex", 
               border: "solid 1px black",
               
@@ -84,7 +84,7 @@ const Info = () => {
                     
                     >
                       <div>
-                        <p className="text-[2rem] font-medium text-center font-serif">
+                        <p className="text-[1.5rem] md:text-[2rem] font-medium text-center font-serif">
                           {item.name}
                         </p>
                       </div>
