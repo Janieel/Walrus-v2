@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../../assets/Icons/hero_Walrus.svg"
+import hero from "../../assets/Icons/hero_walrus.svg"
 import files from "../../assets/Icons/files.svg"
 import fold from "../../assets/Icons/folder.svg"
 import coin from "../../assets/Icons/coin1.svg"
@@ -27,7 +27,7 @@ const Hero = () => {
    <div className='relative bg-gradient-to-r from-[#160D38] to-[#203088] h-[12.5rem] sm:h-[15.25rem] md:h-[18.5rem] lg:h-[18.5rem] xl:h-[24.5rem] w-full overflow-hidden'> 
     
             {/* Gradient stripe - always at bottom */}
-            
+
             <div className="absolute bottom-0 left-0 right-0 w-full opacity-40
                             h-24 sm:h-28 md:h-32 lg:h-48 xl:h-40
                             bg-[linear-gradient(90deg,transparent_0%,transparent_10%,rgba(168,85,247,0.45)_10%,rgba(168,85,247,0.45)_20%,transparent_20%,transparent_30%,rgba(168,85,247,0.45)_30%,rgba(168,85,247,0.45)_75%,transparent_45%,transparent_100%)]
