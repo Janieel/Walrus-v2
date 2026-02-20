@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../../assets/Icons/hero_walrus.svg"
+import hero from "../../assets/Icons/hero.svg"
 import files from "../../assets/Icons/files.svg"
 import fold from "../../assets/Icons/folder.svg"
 import coin from "../../assets/Icons/coin1.svg"
