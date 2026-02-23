@@ -47,7 +47,7 @@ const Info = () => {
               width: "100%", 
               height: "100px", 
               display: "flex", 
-              border: "solid 1px black",
+              border: "solid 0.5px black",
               
             }}>
               <motion.div
@@ -79,12 +79,12 @@ const Info = () => {
                       alignItems: "center"
                     }}
                   >
-                    <div className="h-[120px] w-[220px]  flex justify-center 
+                    <div className="h-[120px] w-[150px] sm:w-[220px]  flex justify-center 
                     items-center border-[#ac9797] border mx-1 hover:bg-black hover:text-white font  " 
                     
                     >
                       <div>
-                        <p className="text-[1.5rem] md:text-[2rem] font-medium text-center font-serif">
+                        <p className="text-[1.2rem] sm:text-[2rem] text-center font-serif">
                           {item.name}
                         </p>
                       </div>

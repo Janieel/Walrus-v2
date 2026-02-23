@@ -8,17 +8,17 @@ import lap from "../../assets/Icons/laptop.svg"
 const Hero = () => {
   return (
     <div>
-      <div className='bg-blue-300  flex justify-center items-center  '>
-        <p className='hover:underline text-[0.9rem] text-center'> walrus is the developer platform that enables you to monetize and verify your data</p> 
-      </div>
+        <div className='bg-blue-300   flex justify-center items-center  '>
+          <p className='hover:underline  font-light   text-[0.9rem] md:text-[1rem] mt-20 mx-2 text-center '> walrus is the developer platform that enables you to monetize and verify your data</p> 
+        </div>
        
-      <div className='bg-gradient-to-r from-[#160D38] to-[#203088]  w-full sm:px-10 lg:px-1'>
+      <div className='bg-gradient-to-r from-[#160D38] to-[#203088]  w-full  sm:px-10 lg:px-1'>
           <div className=' flex flex-col  justify-center items-center  '>
-                <p className='text-white text-center font-extralight  sm:font-light text-[2.5rem] sm:text-[3rem] md:text-[5rem] leading-tight tracking-wide mt-5 '>Enabling Data Markets</p> 
-                <span className='text-teal-300  text-center  w-full  font-normal text-[3rem]  sm:text-[4rem] md:text-[6rem] leading-tight tracking-wide md:-mt-8 sm:-mt-6 -mt-3 '>for the AI Era</span>
+                <p className='text-white text-center  font-thin  sm:font-light text-[2.1rem] sm:text-[3rem] md:text-[5rem] leading-tight tracking-wide mt-5  '>Enabling Data Markets</p> 
+                <span className='text-teal-300  text-center  w-full  font-normal text-[2rem]  sm:text-[4rem] md:text-[6rem] leading-tight tracking-wide md:-mt-8 sm:-mt-6 -mt-3 '>for the AI Era</span>
           </div>
-          <p className=' pb-10 text-center text-[1rem] md:text-[1.2rem] text-white font-extralight mx-5 '> Walrus is Where the World's data becomes <span className='text-purple-300'>reliable,valuable</span> and <span className='text-purple-300'>governable</span>.</p>
-          <div className='flex justify-center gap-10  -mt-2 '>
+          <p className=' pb-10 text-center text-[0.9rem] md:text-[1.2rem] text-white font-extralight mx-5 '> Walrus is Where the World's data becomes <span className='text-purple-300'>reliable,valuable</span> and <span className='text-purple-300'>governable</span>.</p>
+          <div className='flex justify-center gap-10  -mt-2 px-5 '>
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Use Wal </button>
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Read Docs</button>
           </div>
@@ -49,26 +49,26 @@ const Hero = () => {
 
            
           <div className=' h-25 sm:h-30 px-5 bg-white'>
-            <p className='flex items-center  justify-center text-[2rem] sm:text-[3rem]  md:text-[3.5rem] border-x  h-full '><span className=' text-center  '> Who's building on Walrus?</span></p>
+            <p className='flex items-center font-light justify-center text-[1.5rem] sm:text-[3rem]  md:text-[3.5rem] border-x-[0.5px] h-full  '><span className=' text-center  '> Who's building on Walrus?</span></p>
 
               {/* positioned elements */}
-             <img src={files} alt="" className='xl:h-35  h-15 relative xl:-top-60 xl:left-250 left-72 -top-45 translate-x-10 rotate-50
+             <img src={files} alt="" className=' hidden sm:block  xl:h-35  h-15 relative xl:-top-60 xl:left-250 left-72 -top-45 translate-x-10 rotate-50
               sm:left-110 md:h-25 md:left-143 md:-top-55  lg:left-180
               '
               
              />   
 
 
-              <img src={fold} alt="" className='xl:h-45 h-20 md:h-30 lg:h-35 md:left-20 relative -top-65 xl:-top-110 xl:left-20 left-2 md:-top-80 transform-3d rotate-45 ' />
+              <img src={fold} alt="" className='hidden sm:block xl:h-45 h-20 md:h-30 lg:h-35 md:left-20 relative -top-65 xl:-top-110 xl:left-20 left-2 md:-top-80 transform-3d rotate-45 ' />
               
               
               <img src={coin} alt=""
-               className='xl:h-40 md:h-30 lg:h-35 relative md:-top-150 xl:-top-200 xl:right-20 h-25 -top-110 right-70
+               className='hidden sm:block  xl:h-40 md:h-30 lg:h-35 relative md:-top-150 xl:-top-200 xl:right-20 h-25 -top-110 right-70
                 translate-x-80 sm:-top-120 lg:right-30 lg:-top-160
                    animate-[bounce_7s_ease-in-out_infinite] rounded-[100%]
                ' />
 
-               <img src={lap} alt="" className='md:h-25 xl:h-30 h-15 left-72   sm:left-120 sm:-top-140 ml-5 sm:ml-0 
+               <img src={lap} alt="" className=' hidden sm:block  md:h-25 xl:h-30 h-15 left-72   sm:left-120 sm:-top-140 ml-5 sm:ml-0 
                 -top-130 relative md:-top-180 xl:-top-220   md:left-150 lg:left-200 xl:left-220   transform-3d rotate-50 
                
                ' />
