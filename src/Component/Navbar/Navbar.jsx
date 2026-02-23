@@ -8,7 +8,7 @@ import { div } from 'framer-motion/client'
 const Navbar = () => {
   return (
     
-    <div className='sticky top-0 z-50 bg-white'>
+    <div className='fixed top-0 left-0 right-0 z-50 bg-white'>
         <div className='h-20 w-full flex  lg:grid grid-cols-3 justify-between lg:justify-normal '>
            <div>
               <img src={logo} alt="logo" className='h-11 ml-2 md:ml-10  mt-5'/>
