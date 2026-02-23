@@ -37,7 +37,7 @@ const Hero = () => {
             
             {/* Hero image */}
             <img 
-                className='h-[16.75rem] sm:h-[17.5rem] md:h-80 lg:h-[20.5rem] xl:h-101 
+                className=' hidden sm:block h-[16.75rem] sm:h-[17.5rem] md:h-80 lg:h-[20.5rem] xl:h-101 
                           mx-auto xl:ml-49 
                           relative -top-3 sm:-top-4 md:-top-6 lg:-top-8 xl:-top-3 xl:-left-6 lg:left-20
                           px-5 
