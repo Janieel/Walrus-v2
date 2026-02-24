@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <div>
        <Navbar/>
-      <div style={{ paddingTop: 'calc(env(safe-area-inset-top) + 80px)' }}>
+      <div>
         <Routes>
             <Route path='/' element={<Home/>}/>
         </Routes>
