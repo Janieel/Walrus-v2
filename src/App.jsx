@@ -7,11 +7,10 @@ export const App = () => {
   return (
     <div>
        <Navbar/>
-      <div>
         <Routes>
             <Route path='/' element={<Home/>}/>
         </Routes>
-      </div>
+
     </div>
   )
 }
