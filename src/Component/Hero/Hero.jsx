@@ -9,15 +9,15 @@ const Hero = () => {
   return (
     <div>
         <div className='bg-blue-300   flex justify-center items-center  '>
-          <p className='hover:underline  font-light   text-[0.9rem] md:text-[1rem] mt-20 mx-2 text-center '> walrus is the developer platform that enables you to monetize and verify your data</p> 
+          <p className='hover:underline  font-light   text-[0.9rem] md:text-[1rem] mt-16 sm:mt-20 mx-2 text-center '> walrus is the developer platform that enables you to monetize and verify your data</p> 
         </div>
        
       <div className='bg-gradient-to-r from-[#160D38] to-[#203088]  w-full  sm:px-10 lg:px-1'>
           <div className=' flex flex-col  justify-center items-center  '>
-                <p className='text-white text-center  font-thin  sm:font-light text-[2.1rem] sm:text-[3rem] md:text-[5rem] leading-tight tracking-wide mt-5  '>Enabling Data Markets</p> 
-                <span className='text-teal-300  text-center  w-full  font-normal text-[2rem]  sm:text-[4rem] md:text-[6rem] leading-tight tracking-wide md:-mt-8 sm:-mt-6 -mt-3 '>for the AI Era</span>
+                <p className='text-white text-center  font-thin  sm:font-light text-[2.3rem] sm:text-[3rem] md:text-[4rem] lg:[5rem] leading-tight tracking-wide mt-5 mx-2 '>Enabling Data Markets</p> 
+                <span className='text-teal-300  text-center  w-full  font-normal text-[3rem]  sm:text-[4rem] md:text-[5rem]   lg:text-[6rem] leading-tight tracking-wide md:-mt-8 sm:-mt-6 -mt-3 '>for the AI Era</span>
           </div>
-          <p className=' pb-10 text-center text-[0.9rem] md:text-[1.2rem] text-white font-extralight mx-5 '> Walrus is Where the World's data becomes <span className='text-purple-300'>reliable,valuable</span> and <span className='text-purple-300'>governable</span>.</p>
+          <p className=' pb-10 text-center text-[1rem] md:text-[1.2rem] text-white font-extralight mx-5 '> Walrus is Where the World's data becomes <span className='text-purple-300'>reliable,valuable</span> and <span className='text-purple-300'>governable</span>.</p>
           <div className='flex justify-center gap-10  -mt-2 px-5 '>
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Use Wal </button>
               <button className='h-10 w-40 bg-teal-300 rounded-[5px]'> Read Docs</button>

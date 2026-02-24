@@ -19,7 +19,7 @@ const Navbar = () => {
                    <img src={ham} className=' justify-center items-center h-5' alt="" />
                </div>
            </div>
-            <div className=' hidden lg:flex justify-center items-center w-full'>
+            <div className=' hidden lg:flex justify-center items-center w-full '>
                <Navdrop/>
            </div>
            <div className='lg:flex justify-end items-center pr-10 hidden  '> 
