@@ -8,7 +8,7 @@ import { div } from 'framer-motion/client'
 const Navbar = () => {
   return (
      
-    <div className=' bg-white' style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
+    <div className=' bg-white' style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,paddingTop: 'env(safe-area-inset-top)'  }}>
          
         <div className=' h-16 sm:h-20 w-full flex  lg:grid grid-cols-3 justify-between lg:justify-normal '>
            <div>
